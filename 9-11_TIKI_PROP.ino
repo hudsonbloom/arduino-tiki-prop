@@ -56,27 +56,8 @@ void loop() {
   int sensor4Reading = digitalRead(sensor4);
   int sensor5Reading = digitalRead(sensor5);
 
-//  digitalWrite(led1, LOW);
-//  digitalWrite(led2, LOW);
-//  digitalWrite(led3, LOW);
-//  digitalWrite(led4, LOW);
-//  digitalWrite(led5, LOW);
-
-
-//  isSensor1Placed = false;
-//  isSensor2Placed = false;
-//  isSensor3Placed = false;
-//  isSensor4Placed = false;
-//  isSensor5Placed = false;
-
 
     hasCrateDropped = false;
-
-//  if (hasCrateDropped == true){
-//    digitalWrite(relay, HIGH);
-//  } else {
-//    digitalWrite(relay, LOW);
-//  }
 
 
   if (sensor1Reading == 0 && isSensor1Placed == false){
